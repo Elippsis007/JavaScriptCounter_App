@@ -14,8 +14,8 @@ let count = 0;
 // created function called increment linked to "on-click" called "increment"
 function increment() {
     // count(0) is now.... 0 + 1 = 1 --> each time the button is clicked it will add one
-    count += 1
-    countEl.innerText = count;
+    count += 1;
+    countEl.textContent = count;
 }
 
 
@@ -23,6 +23,9 @@ function increment() {
 // a function which logs out the count when it's called/invoked
 function save() {
     let countStr = count + " - ";
-    saveEl.innerText += countStr;
+    // "textContent" is used for returning every element in html
+    saveEl.textContent += countStr;
+    countEl.textContent = 0;
+    count = 0;
 }
 
