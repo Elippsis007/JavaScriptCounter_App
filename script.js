@@ -5,7 +5,7 @@
 
 // Hey HTML document, I want to get an element, and I want to get it by and ID is "count-el"
 // document.getElementById("count-el").innerText = 5
-
+let saveEl = document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
 
 // Assigning 0 to count
@@ -14,6 +14,15 @@ let count = 0;
 // created function called increment linked to "on-click" called "increment"
 function increment() {
     // count(0) is now.... 0 + 1 = 1 --> each time the button is clicked it will add one
-    count = count + 1;
+    count += 1
     countEl.innerText = count;
 }
+
+
+
+// a function which logs out the count when it's called/invoked
+function save() {
+    let countStr = count + " - ";
+    saveEl.innerText += countStr;
+}
+
