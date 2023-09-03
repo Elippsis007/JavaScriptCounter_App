@@ -1,0 +1,29 @@
+// Challenge 1
+// let firstBatch = 5
+// let secondBatch = 7
+
+// let count = firstBatch + secondBatch
+
+// console.log(count)
+
+// Challenge 2
+// let myAge = 36
+// let humanDogRatio = 7
+
+// let myDogAge = myAge * humanDogRatio
+
+// console.log(myDogAge);
+
+
+// Challenge 3
+// let bonusPoints = 50
+
+// bonusPoints = bonusPoints + 50
+
+// bonusPoints = bonusPoints - 25
+
+// bonusPoints = bonusPoints - 5
+
+
+// console.log(bonusPoints)
+
